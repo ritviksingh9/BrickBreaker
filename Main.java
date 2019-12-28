@@ -155,7 +155,6 @@ public class Main extends JFrame implements ActionListener
 				int i;
 				for(i = 0; !buttonText[i].equals(hold.getText()); i++);
 				changeWidth(i);
-			//	paddle.setWidth(125-i*25);
 			}
 		}
 	}
